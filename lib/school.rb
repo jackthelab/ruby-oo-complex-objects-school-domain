@@ -22,6 +22,7 @@ class School
     end
 
     def sort
+        
         sorted_students = {}
         sorted_grades = @roster.keys.sort
         
@@ -32,7 +33,7 @@ class School
         end
 
         sorted_students
-        
+
     end
 
 
